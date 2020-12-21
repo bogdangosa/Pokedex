@@ -1,0 +1,24 @@
+.PokemonCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background-color: #cacaca;
+    color:#1d1d1d;
+    transition: 0.5s;
+    border-radius: 0.5rem;
+}
+.PokemonName{
+    padding-top: 1rem;
+    color:#1d1d1d;
+}
+
+.PokemonCard:hover{
+    
+    background-color: #808080;
+}
+.PokemonCard img{
+    width: 60%;
+    height: auto;
+}

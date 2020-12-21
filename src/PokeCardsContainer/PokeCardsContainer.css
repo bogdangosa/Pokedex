@@ -1,0 +1,19 @@
+.PokeCardsContainer{
+    width: 90%;
+    padding: 7rem 5% 2rem 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+}
+
+@media(max-width:900px){
+    .PokeCardsContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:500px){
+    .PokeCardsContainer{
+        grid-template-columns: 1fr;
+    }
+}

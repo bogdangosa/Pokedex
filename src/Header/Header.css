@@ -1,0 +1,23 @@
+.Header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 0 5%;
+    height: 5rem;
+    background-color: #234c63;
+    color:#eeeeee;
+}
+.Header h1{
+    color:#eeeeee;
+}
+.pageBtn{
+    background-color: #ec7575;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.pageBtn:hover{
+    background-color: #e44343;
+}
